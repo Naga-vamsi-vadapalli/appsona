@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Keeping App</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Note Keeping App</h1>
+        <button id="logout">Logout</button>
+        <div id="note-form">
+            <input type="text" id="title" placeholder="Title">
+            <textarea id="content" placeholder="Content"></textarea>
+            <input type="text" id="tags" placeholder="Tags (comma separated)">
+            <input type="color" id="backgroundColor" value="#ffffff">
+            <button id="createNote">Create Note</button>
+        </div>
+        <div id="notes"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
